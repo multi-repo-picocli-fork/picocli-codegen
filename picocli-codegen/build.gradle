@@ -18,7 +18,7 @@ java {
 }
 
 dependencies {
-    api rootProject
+    api "info.picocli:picocli:$projectVersion"
 }
 
 apply plugin: 'org.beryx.jar' // for compiling module-info on Java 8

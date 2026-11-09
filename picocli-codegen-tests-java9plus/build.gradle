@@ -13,7 +13,7 @@ java {
 }
 
 dependencies {
-    api rootProject
+    api "info.picocli:picocli:$projectVersion"
     api project(':picocli-codegen')
     testImplementation  supportDependencies.compileTesting,
                         supportDependencies.log4j2api,
